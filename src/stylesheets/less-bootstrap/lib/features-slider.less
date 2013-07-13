@@ -1,0 +1,135 @@
+// -----------------------------------------------------------------
+// * [Feature Slider Files]
+// * 
+// * @version 0.1.0
+// * 
+// * @author Pratama H. Salahudin <pratama@hasriyan.com>
+// -----------------------------------------------------------------
+
+.features {
+    background-color: #96b128;
+    padding-top: 50px;
+    overflow:hidden;
+    h2,
+    p {
+        color: #f4f6ec;
+    }
+    .carousel-inner {
+        img {
+            display: block;
+            margin: 30px auto 0;
+        }
+        p.text-center {
+            padding-left: 40px;
+            padding-right: 40px;
+            line-height: 20px;
+        }
+    }
+    .carousel-control {
+        background: url('../img/arrow.png') 0 0 no-repeat;
+        border: 0;
+        opacity: 1;
+        &:hover {
+            background-position: 0 -46px;
+        }
+        &.right {
+            background-position: right 0;
+            &:hover {
+                background-position: right -46px;
+            }
+        }
+    }
+    .carousel-indicators {
+        .clearfix;
+        margin-bottom: 50px;
+        position: relative;
+        right: 0px;
+        top: 0px;
+        text-align: center;
+        li {
+            .inlineDisplay;
+            background-color: transparent;
+            float: none;
+            margin-left: 0px;
+            margin-right: 0px;
+            height: 32px; 
+            width: 32px;
+            text-indent: 0;
+            cursor: pointer;
+            img {
+                transition: opacity 0.5s ease-in-out;
+            }
+            &:hover{
+                img {
+                    opacity: 0.6;
+                }
+            }
+            &.active {
+                img {
+                    opacity: 0.3;
+                }
+            }
+        }
+    }
+}
+
+#features {
+    margin: 0px;
+}
+
+/* Animate */
+.carousel-indicators li, 
+.carousel-inner>.item img, 
+.carousel-inner>.item h2, 
+.carousel-inner>.item p {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    transition: all .8s ease;
+}
+.carousel-inner>.item h2, 
+.carousel-inner>.item p, 
+.carousel-inner>.item img{
+    -webkit-transition: all .8s ease .8s;
+    -moz-transition: all .8s ease .8s;
+    -ms-transition: all .8s ease .8s;
+    -o-transition: all .8s ease .8s;
+    transition: all .8s ease .8s;
+}
+.carousel-inner>.item h2, 
+.carousel-inner>.item p{
+    opacity: 0
+}
+.carousel-inner>.active h2, 
+.carousel-inner>.active p{
+    opacity: 1
+}
+.carousel-inner>.item img{
+    position: relative;
+    bottom:-535px
+}
+.carousel-inner>.active img{
+    position: relative;
+    bottom:0
+}
+
+.tooltip, 
+.tooltip-inner{
+    background: none;
+    border: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+.tooltip-inner{
+    min-width: 300px;
+    max-width: 300px
+}
+.tooltip-arrow{
+    display: none;
+}

@@ -1,0 +1,83 @@
+// -----------------------------------------------------------------
+// * [Responsive 768 and Up]
+// * 
+// * @project Clask Admin Template
+// * @version 0.1.0
+// * 
+// * @author Pratama H. Salahudin <pratama@inkreastika.com>
+// * @author Yusuf Hidayat <yusuf@inkreastika.com>
+// -----------------------------------------------------------------
+
+@media screen and (min-width:768px) {
+    .logo-container {
+        margin-left: 0px;
+    }
+    .top .nav-pills {
+        margin-right: 0px;
+        > li {
+            > a {
+                margin-left: 20px;
+            }
+        }
+    }
+    .jumbotron {
+        .lead-copy {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+    .subscribe {
+        h4 {
+            float: left;
+            margin-bottom: 0px;
+            margin-top: 8px;
+        }
+        .control-group {
+            float: right;
+            margin-bottom: 0px;
+        }
+        input {
+            box-sizing: content-box;
+            margin-bottom: 0px;
+            width: 250px;
+        }
+        .btn {
+            width: auto;
+            box-sizing: content-box;
+        }
+    }
+    .showcases {
+        .btn-more {
+            a {
+                margin-left: 10px;
+                margin-right: 10px;
+                .inlineDisplay;
+                .icon-film {
+                    margin-top: 2px;
+                }
+            }
+        }
+    }
+    .showcase-items {
+        padding: 50px 0px 20px;
+        .showcase {
+            &:last-child {
+                display: block;
+            }
+            > div {
+                width: 31.491712707182323%;
+                margin-left: 2.7624309392265194%;
+                &:first-child {
+                    margin-left: 0px;
+                }
+                a {
+                    &:hover {
+                        &:before {
+                            left: 20%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

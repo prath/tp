@@ -1,0 +1,53 @@
+// -----------------------------------------------------------------
+// * [Testimoni Files]
+// * 
+// * @version 0.1.0
+// * 
+// * @author Pratama H. Salahudin <pratama@hasriyan.com>
+// -----------------------------------------------------------------
+.testimoni {
+    background-color: #26c0b8;
+    .carousel-indicators {
+        .clearfix;
+        display: block;
+        margin: 0px auto 30px;
+        width: 355px;
+        position: relative;
+        right: 0px;
+        top: 0px;
+        li {
+            height: 40px;
+            width: 40px;
+            text-indent: 0px;
+            cursor: pointer;
+            transition: opacity 2s ease-in-out;
+            &:first-child {
+                margin-left: 0px;
+            }
+            &.active {
+                opacity: 0.3;
+                &:hover {
+                    opacity: 0.3;
+                }
+            }
+            &:hover {
+                opacity: 0.5;
+            }
+            img {
+                border-radius: 5px;
+            }
+        }
+    }
+    .item {
+        small {
+            display: block;
+            margin-left: 40px;
+            margin-top: 20px;
+            color: #f4f6ec;
+            font-weight: 600;
+            &:before {
+                content: '\2014 \00A0';
+            }
+        }
+    }
+}

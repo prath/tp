@@ -1,0 +1,85 @@
+// -----------------------------------------------------------------
+// * [Marketing Files]
+// * 
+// * @version 0.1.0
+// * 
+// * @author Pratama H. Salahudin <pratama@hasriyan.com>
+// -----------------------------------------------------------------
+
+.marketing {
+    .sub-paragraph {
+        margin-bottom: 50px;
+    }
+    .span4 {
+        margin-bottom: 20px;
+        text-align: center;
+        [class^="icon-"], 
+        [class*=" icon-"] {
+            border-radius: 50px;
+            margin-bottom: 10px;
+            padding: 15px;
+            height: 24px;
+            width: 24px;
+            background-image: none;
+            img {
+                height: 24px;
+                width: 24px;
+            }
+        }
+        .icon-support{
+            background-color: #c4d28d;
+        }
+        .icon-ticket{
+            background-color: #d2af8f;
+        }
+        .icon-forum{
+            background-color: #d29d8f;
+        }
+        .icon-kb{
+            background-color: #8f9ad2;
+        }
+        .icon-doc{
+            background-color: #8fbdd2;
+        }
+        h3 {
+            margin-bottom: 20px;
+            color: #83877b;
+            font-family: "Roboto Slab";
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 20px;
+        }
+        p {
+            color: #83877b;
+            font-size: 13px;
+            text-align: left;
+        }
+        &.watch {
+            margin-top: 65px;
+            padding-right: 40px;
+            [class^="icon-"], 
+            [class*=" icon-"] {
+                border-radius: 0px;
+                margin-bottom: 0px;
+                margin-right: 10px;
+                padding: 0px;
+                height: 14px;
+                width: 14px;
+                background-image: url('../img/glyphicons-halflings-white.png');
+            }
+            p {
+                color: lighten(#83877b, 10%);
+                font-family: "Roboto Slab";
+                font-style: italic;
+                a {
+                    font-size: 12px;
+                    font-style: normal;
+                }
+            }
+        }
+    }
+    .text-center.cta-label {
+        margin-bottom: 10px;
+        margin-top: 100px;
+    }
+}

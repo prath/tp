@@ -1,0 +1,31 @@
+{
+  "name": "Tokopress",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Pratama Hasriyan",
+    "email": "pratama@hasriyan.com"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-jade": "~0.5.1",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt-contrib-requirejs": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-templater": "0.0.4-1",
+    "grunt-open": "~0.2.0",
+    "grunt-dom-munger": "~1.0.1",
+    "grunt-grunticon": "~0.3.4",
+    "autoprefixer": "~0.4.20130603",
+    "grunt-autoprefixer": "~0.1.20130615",
+    "grunt-contrib-less": "~0.5.2",
+    "grunt-prettify": "~0.1.5"
+  },
+  "keywords": []
+}

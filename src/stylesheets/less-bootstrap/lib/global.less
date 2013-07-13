@@ -1,0 +1,111 @@
+// -----------------------------------------------------------------
+// * [Header Files]
+// * 
+// * @version 0.1.0
+// * 
+// * @author Pratama H. Salahudin <pratama@hasriyan.com>
+// -----------------------------------------------------------------
+
+body {
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #444541;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial;
+    font-size: @baseFontSize;
+    line-height: @baseLineHeight;
+}
+
+/*-----[Anchor]-----*/
+a {
+    color: #96b128;
+    &:hover {
+        background-color: transparent;
+        color: #4b5c06;
+        text-decoration: none;
+    }
+}
+
+/*-----[Navs & Nav Pills]-----*/
+.nav-pills {
+    > li {
+        > a {
+            margin-left: 20px;
+            font-weight: 600;
+            &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+/*-----[Button]-----*/
+.btn {
+    border: 0px;
+    border-radius: 50px;
+    box-shadow: none;
+    padding: 10px 20px;
+    background-color: #96b128;
+    background-image: none;
+    color: #f4f6ec;
+    font-family: "Open Sans";
+    text-shadow: none;
+    font-weight: 600;
+    &:hover {
+        background-color: #c3d37f;   
+    }
+} 
+
+/*-----[Input]-----*/
+input[type="search"],
+input[type="text"] {
+    border-color: #E6EBD3;
+    border-radius: 50px;
+    box-shadow: none;
+    padding: 10px 20px;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+
+/*-----[Heading]-----*/
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: "Roboto Slab";
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+}
+
+/*-----[Blockquote]-----*/
+blockquote {
+    border-left : 1px solid lighten(#26c0b8, 10%);
+    margin: 0px 20px;
+    color: #f4f6ec;
+    font-family: "Roboto Slab";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: @baseLineHeight;
+}
+
+/*-----[Text and Copy]-----*/
+.text-center {
+    font-family: "Roboto Slab";
+    font-size: 13px;
+}
+
+/*-----[Blocks]-----*/
+.why,
+.showcases,
+.marketing, 
+.testimoni,
+.showcase-items {
+    padding: 50px 20px;
+}

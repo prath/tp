@@ -1,0 +1,22 @@
+//- 
+    =====================================================================
+    * Footer Layout 
+    * 
+    * Footer partial
+    *
+    * @author Pratama H. Salahudin <pratama@hasriyan.com>
+    =====================================================================
+.footer
+    .container
+        h4.pull-left.logo-footer
+            | Tokopress
+        ul.nav.nav-pills.pull-right
+            li
+                a(href='#') Support
+            li
+                a(href='#') Login
+script(class='vendor', src='#{js_dir}/vendor/jquery-2.0.0.min.js')
+script(class='vendor', src='#{js_dir}/vendor/bootstrap.min.js')
+script(class='plugin concat', src='#{js_dir}/plugins.js')
+//- ini selalu simpan diakhir. hapus ini ketika selesai
+script(src="http://localhost:35729/livereload.js", class="livereload")
