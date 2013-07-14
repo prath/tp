@@ -1,6 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
-
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic);
+
+@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
 
 /*------------------------------------------------------------------
  Project            : Tokopress
@@ -38,8 +40,8 @@ body {
   padding-left: 0px;
   padding-right: 0px;
   color: #444541;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial;
-  font-size: 12px;
+  font-family: "Monda", "Helvetica Neue", Helvetica, Arial;
+  font-size: 14px;
   line-height: 20px;
 }
 
@@ -77,7 +79,7 @@ a:hover {
   background-color: #96b128;
   background-image: none;
   color: #f4f6ec;
-  font-family: "Open Sans";
+  font-family: "Monda", "Helvetica Neue", Helvetica, Arial;
   text-shadow: none;
   font-weight: 600;
 }
@@ -95,7 +97,7 @@ input[type="text"] {
   -webkit-box-shadow: none;
   box-shadow: none;
   padding: 10px 20px;
-  font-family: "Open Sans";
+  font-family: "Monda", "Helvetica Neue", Helvetica, Arial;
   font-size: 14px;
 }
 
@@ -111,10 +113,10 @@ h6 {
 }
 
 h2 {
-  margin-bottom: 20px;
-  font-family: "Roboto Slab";
-  font-size: 30px;
-  font-weight: 100;
+  margin-bottom: 40px;
+  font-family: "Exo", "Helvetica Neue", Helvetica, Arial;
+  font-size: 36px;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -124,7 +126,7 @@ blockquote {
   border-left: 1px solid #40d9d1;
   margin: 0px 20px;
   color: #f4f6ec;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", Georgia, Serif;
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -133,8 +135,7 @@ blockquote {
 /*-----[Text and Copy]-----*/
 
 .text-center {
-  font-family: "Roboto Slab";
-  font-size: 13px;
+  font-size: 16px;
 }
 
 /*-----[Blocks]-----*/
@@ -144,7 +145,7 @@ blockquote {
 .marketing,
 .testimoni,
 .showcase-items {
-  padding: 50px 20px;
+  padding: 80px 20px;
 }
 
 /*------------------------------------------------------------------
@@ -250,8 +251,9 @@ blockquote {
 }
 
 .jumbotron h3 {
+  margin-bottom: 5px;
   color: #f4f6ec;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
 }
@@ -259,7 +261,8 @@ blockquote {
 .jumbotron h1 {
   margin-bottom: 20px;
   color: #f4f6ec;
-  font-size: 48px;
+  font-family: "Exo", "Helvetica Neue", Helvetica, Arial;
+  font-size: 50px;
   font-weight: 100;
   letter-spacing: -2px;
   line-height: 48px;
@@ -270,11 +273,11 @@ blockquote {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 40px;
-  font-family: "Roboto Slab";
   text-align: center;
 }
 
 .jumbotron p.lead {
+  margin-bottom: 40px;
   font-size: 18px;
   font-weight: 300;
   line-height: 21px;
@@ -284,6 +287,7 @@ blockquote {
   padding: 15px 40px;
   border-bottom: 3px solid #04444e;
   background-color: #095e6b;
+  font-size: 18px;
   text-transform: uppercase;
 }
 
@@ -303,7 +307,6 @@ blockquote {
 
 .subscribe h4 {
   margin-bottom: 20px;
-  font-family: "Roboto Slab";
   font-size: 18px;
   font-weight: 400;
   text-align: center;
@@ -493,12 +496,13 @@ blockquote {
 ------------------------------------------------------------------*/
 
 .showcases .btn-more a {
+  font-size: 14px;
   display: block;
 }
 
 .showcases .btn-more a .icon-film {
   margin-right: 5px;
-  margin-top: 2px;
+  margin-top: 5px;
   opacity: .5;
 }
 
@@ -678,15 +682,15 @@ blockquote {
 .marketing .span4 h3 {
   margin-bottom: 20px;
   color: #83877b;
-  font-family: "Roboto Slab";
-  font-size: 20px;
+  font-family: "Roboto Slab", Georgia, Serif;
+  font-size: 24px;
   font-weight: 300;
   line-height: 20px;
 }
 
 .marketing .span4 p {
   color: #83877b;
-  font-size: 13px;
+  line-height: 25px;
   text-align: left;
 }
 
@@ -708,7 +712,6 @@ blockquote {
 
 .marketing .span4.watch p {
   color: #9c9f96;
-  font-family: "Roboto Slab";
   font-style: italic;
 }
 
@@ -762,7 +765,7 @@ blockquote {
 
 @media screen and (min-width: 600px) {
   h2 {
-    font-size: 36px;
+    font-size: 40px;
   }
 
   blockquote {
@@ -771,7 +774,8 @@ blockquote {
   }
 
   .text-center {
-    font-size: 14px;
+    font-size: 18px;
+    line-height: 25px;
   }
 
   .jumbotron h3 {
@@ -780,7 +784,7 @@ blockquote {
 
   .jumbotron h1 {
     margin-bottom: 10px;
-    font-size: 56px;
+    font-size: 55px;
     line-height: 56px;
   }
 
@@ -865,10 +869,6 @@ blockquote {
     /* Fix for IE7 */
   }
 
-  .showcases .btn-more a .icon-film {
-    margin-top: 2px;
-  }
-
   .showcase-items {
     padding: 50px 0px 20px;
   }
@@ -896,7 +896,7 @@ blockquote {
 
 @media screen and (min-width: 980px) {
   h2 {
-    font-size: 42px;
+    font-size: 48px;
   }
 
   blockquote {
@@ -906,15 +906,15 @@ blockquote {
 
   .text-center {
     margin: 0px auto 50px;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 30px;
     width: 800px;
   }
 
   .why,
   .showcases,
   .marketing {
-    padding: 100px 0px 0px;
+    padding: 120px 0px 0px;
   }
 
   .jumbotron h3 {
@@ -950,12 +950,8 @@ blockquote {
     margin-top: -80px;
   }
 
-  .showcases .btn-more a {
-    font-size: 14px;
-  }
-
   .showcases .sub-paragraph {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
   }
 
   .showcases h2 {
@@ -1004,6 +1000,36 @@ blockquote {
     width: 800px;
     font-size: 20px;
     line-height: 30px;
+  }
+
+  .why,
+  .showcases,
+  .marketing {
+    padding: 150px 0px 0px;
+  }
+
+  .jumbotron h3 {
+    font-size: 28px;
+  }
+
+  .jumbotron h1 {
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -4px;
+  }
+
+  .jumbotron .lead-copy {
+    margin-bottom: 60px;
+    padding-top: 100px;
+  }
+
+  .jumbotron p.lead {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .showcases .sub-paragraph {
+    margin-bottom: 100px;
   }
 
   .showcase-items .showcase {

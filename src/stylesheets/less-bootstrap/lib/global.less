@@ -10,7 +10,7 @@ body {
     padding-left: 0px;
     padding-right: 0px;
     color: #444541;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial;
+    font-family: @baseFontFamily;
     font-size: @baseFontSize;
     line-height: @baseLineHeight;
 }
@@ -47,7 +47,7 @@ a {
     background-color: #96b128;
     background-image: none;
     color: #f4f6ec;
-    font-family: "Open Sans";
+    font-family: @baseFontFamily;
     text-shadow: none;
     font-weight: 600;
     &:hover {
@@ -62,12 +62,12 @@ input[type="text"] {
     border-radius: 50px;
     box-shadow: none;
     padding: 10px 20px;
-    font-family: "Open Sans";
+    font-family: @baseFontFamily;
     font-size: 14px;
 }
 
 /*-----[Heading]-----*/
-h1, 
+h1,     
 h2,
 h3,
 h4,
@@ -77,10 +77,10 @@ h6 {
 }
 
 h2 {
-    margin-bottom: 20px;
-    font-family: "Roboto Slab";
-    font-size: 30px;
-    font-weight: 100;
+    margin-bottom: 40px;
+    font-family: @altFontFamily;
+    font-size: 36px;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -89,7 +89,7 @@ blockquote {
     border-left : 1px solid lighten(#26c0b8, 10%);
     margin: 0px 20px;
     color: #f4f6ec;
-    font-family: "Roboto Slab";
+    font-family: @terFontFamily;
     font-size: 15px;
     font-weight: 300;
     line-height: @baseLineHeight;
@@ -97,8 +97,7 @@ blockquote {
 
 /*-----[Text and Copy]-----*/
 .text-center {
-    font-family: "Roboto Slab";
-    font-size: 13px;
+    font-size: 16px;
 }
 
 /*-----[Blocks]-----*/
@@ -107,5 +106,5 @@ blockquote {
 .marketing, 
 .testimoni,
 .showcase-items {
-    padding: 50px 20px;
+    padding: 80px 20px;
 }
